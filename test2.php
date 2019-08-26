@@ -10,3 +10,4 @@ echo $person.' '.$surn;
 var_dump($iq);
 var_dump($weight);
 var_dump($age);
+//skills
