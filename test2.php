@@ -2,12 +2,29 @@
 
 $person = 'Peter';
 $surn = 'Griffin';
-$age = 'Old';
+$age = '48';
 $iq = '25';
-$weight = 'small car';
+$weight = '233';
+$car = 'fiat 500';
+if($iq<$weight){
+    $df = ' is dumb and fat';
+}
+
+
 echo '<h1>Family Guy</h1>';
 echo $person.' '.$surn;
-var_dump($iq);
-var_dump($weight);
-var_dump($age);
-//skills
+echo $df;
+
+switch($iq){
+    case 1;
+        echo 'ge upp';
+        break;
+    case 30;
+        echo 'still dumb <br>';
+
+     case 25;
+     echo '<br>hopeless';
+     break;
+}
+
+
